@@ -20,7 +20,7 @@ Ce circuit correspond à un diviseur de tension où tois charges de 100 Ω sont 
 
 ![](Images/flux_d.png)
 
-Nous pouvons bien voir que le flux énergétique se déplace en diagonale directement dans la direction des différentes résistance malgré le fait que les fils du circuits suivent un parcours indirect. On peut toutefois voir certaines discontinuités dans le champ du flux énergétiques qui pourraient être expliquées par la présences de mises à la terres ainsi que de plusieurs charges alignées par rapport à la source de courant. Pour vérifier cette hypothèse, nous avons placé dans le circuit [(a)](examples/circuit_a.py) deux autres résistance en série poour former le circuit [concept](examples/circuit_concept.py) et nous obtenons le flux énergétique suivant:
+Nous pouvons bien voir que le flux énergétique se déplace en diagonale directement dans la direction des différentes résistance malgré le fait que les fils du circuits suivent un parcours indirect. On peut toutefois voir certaines discontinuités dans le champ du flux énergétiques qui pourraient être expliquées par la présences de mises à la terres ainsi que de plusieurs charges alignées par rapport à la source de courant. Pour vérifier cette hypothèse, nous avons placé dans le circuit [(a)](examples/circuit_a.py) deux autres résistance en série poour former le circuit [concept](examples/circuit_concept.py) ([simulation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgB3EFPPEbQnzDEU-QVE7gRYodMyjIk4aLR8ea-BK7YB3TXRWbFXA9wyjTAvsdrZRV-roeKAbo8IzuvT1So0qxFBBMAhsAE5eGnw6HqpBmOGR3P7uyb5mkjFptiopNsrZ6tmKEUXyqeVUCdq65aaVSnLmSQ1cBeXteY25VO1GkvXN9V0mdtn1-UA)) et nous obtenons le flux énergétique suivant:
 
 ![](Images/flux_concept.png)
 
