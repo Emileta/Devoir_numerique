@@ -25,3 +25,11 @@ Nous pouvons bien voir que le flux énergétique se déplace en diagonale direct
 ![](Images/flux_concept.png)
 
 En comparant avec le flux énergétique du circuit [(a)](Images/flux_a) à celui ci-dessus, on remarque que le graphique est beaucoup moins beau; la représentation de ce dernier comporte plusieurs discontinuité tel qu'observé dans notre circuit diviseur de tension.
+
+## Pourquoi pas s'amuser en python
+
+Sans être pertinent d'un point de vue physique, pourquoi ne pas s'amuser un peux avec ce jolie code. On pourrait faire plein de boucles de potentiel pour former des mots automatiquement. Dans le code du fichier [circuit_easter](examples/circuit_easter.py) simplement changer la string suivante pour celle de son choix:
+
+```
+circuit, x, y = text2wire('Salut louis')
+```
