@@ -38,7 +38,6 @@ def text2wire(string):
                     }
     for i in range(len(string)):
         letter_points = alphabet_dicti[string[i]]
-        print(string[i])
         for j in range(len(letter_points)):
             if j < len(letter_points) - 1:
                 if letter_points[j][0] == letter_points[j + 1][0]:
@@ -55,5 +54,5 @@ def text2wire(string):
                 wires.append(Wire(start=(letter_points[j][0] + i * (20+2) + 5, letter_points[j][1]+5), stop= (letter_points[0][0] + i *  (20 +2) + 5, letter_points[0][1]+5), current=Current(x=-1, y=0), voltage=i+1 ))
     size_x = len(string) * 22 + 20
     size_y = 45
-    print('Le size du world est:' + f'{size_x, size_y}')
+    print('World size:' + f'{size_x, size_y}')
     return Circuit(wires), size_x, size_y

@@ -8,7 +8,7 @@ import time
 if __name__ == "__main__":
     '''Accepts any string of charcaters and converts it to a circuit'''
 
-    circuit, x, y = text2wire('Salut louis voici notre circuit special')
+    circuit, x, y = text2wire('Salut louis')
 
     world = World(shape=(x, y))
 
