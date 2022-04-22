@@ -33,3 +33,6 @@ Sans être pertinent d'un point de vue physique, pourquoi ne pas s'amuser un peu
 ```
 circuit, x, y = text2wire('Salut louis')
 ```
+La fonction [Text2wires](examples/Text2wires.py) crée les fils et le monde à un certain gradient de potentiel ce qui donne le résultat suivant:
+
+![](Images/easter.png)
