@@ -38,6 +38,7 @@ class LaplaceEquationSolver:
             (x, y) in space. The difference between P and V is that P gives the potential in the whole world, i.e in
             the wires and in the empty space between the wires, while the field V always gives V(x, y) = 0 if (x, y)
             is not a point belonging to an electric wire.
+        Developped by Émile Tremblay-Antoine and Xavier Arrata
         """
         # Copy the given constant voltage field to avoid modifying it.
         potential = constant_voltage.copy()

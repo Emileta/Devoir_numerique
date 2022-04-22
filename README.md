@@ -3,6 +3,8 @@ A small tool to visualize energy flux, electric field and magnetic field in arbi
 
 ## Circuit obligatoires
 
+Les membres de l'équipe sont Émile Tremblay-Antoine et Xavier Arrata
+
 On retrouve dans les quatres fichier python des circuits [a](examples/circuit_a.py), [b](examples/circuit_b.py) et [c](examples/circuit_c.py) dans le dossier [examples](examples).
 ![(a)](Images/flux_a.png)
 ![(b)](Images/flux_b.png)![(c)](Images/flux_c.png)

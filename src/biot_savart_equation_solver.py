@@ -26,7 +26,8 @@ class BiotSavartEquationSolver:
         magnetic_field : VectorField
             A vector field B : ℝ² → ℝ³ ; (x, y) → (B_x(x, y), B_y(x, y), B_z(x, y)), where B_x(x, y), B_y(x, y) and
             B_z(x, y) are the 3 components of the magnetic vector at a given point (x, y) in space. Note that
-            B_x = B_y = 0 is always True in our 2D world."""
+            B_x = B_y = 0 is always True in our 2D world. 
+        Developped by Émile Tremblay-Antoine and Xavier Arrata"""
         
         # Find all current vectors and their corresponding positions
         position, current = [], []
