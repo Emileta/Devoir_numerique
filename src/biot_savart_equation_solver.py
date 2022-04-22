@@ -36,7 +36,7 @@ class BiotSavartEquationSolver:
                 if cell[0] or cell[1] != 0:
                     position.append((row, column, 0))
                     current.append(cell)
-        # Creates an array full of zeros that has the dimensions of the electric current field
+        # Creates an array of zeros that has the dimensions of the electric current field
         magnetic_field = np.zeros(np.shape(electric_current))
         # Calculate cross product of current and r vector for each point in the magnetic field Vector Space
         for row, row_value in enumerate(magnetic_field):

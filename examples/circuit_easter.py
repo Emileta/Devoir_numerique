@@ -6,6 +6,8 @@ import time
 
 
 if __name__ == "__main__":
+    '''Accepts any string of charcaters and converts it to a circuit'''
+
     circuit, x, y = text2wire('Salut louis voici notre circuit special')
 
     world = World(shape=(x, y))
@@ -15,6 +17,6 @@ if __name__ == "__main__":
     now = time.time()
     world.compute(1000)
     print('The computation took', time.time() - now, 'seconds.')
-
+    
     world.show_all()
     

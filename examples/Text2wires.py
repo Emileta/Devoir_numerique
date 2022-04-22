@@ -4,7 +4,9 @@ from src import Circuit, Current, Wire, World
 import time
 
 def text2wire(string):
-    #Create a circuit of Wires from a string of characters\
+    '''Creates wires from a given string of caracters,
+    The goal is to create circuits of any sentence simply as a fun quirk,
+    there is no physical significance and it is a cool easteregg (yes it was done at during easter brake).'''
     string = string.upper()
     wire_shape = Wire(start=(10, 40), stop=(35, 40), current=Current(x=1, y=0), voltage=9)
     wires = []
