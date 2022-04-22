@@ -151,7 +151,7 @@ class World:
         Shows the electric potential.
         """
         if self.wires:
-            self._potential.show(title="Potential")
+            self._potential.show(title="Potential [V]")
         else:
             raise self.EmptyWorldException
 
@@ -173,7 +173,7 @@ class World:
             else:
                 electric_field = self._electric_field
 
-            electric_field.show(title="Electric field")
+            electric_field.show(title="Electric field [V/m]")
         else:
             raise self.EmptyWorldException
 
@@ -182,7 +182,7 @@ class World:
         Shows the z-component of the magnetic field.
         """
         if self.wires:
-            self._magnetic_field.z.show(title="Magnetic field (z component)")
+            self._magnetic_field.z.show(title="Magnetic field (z component) [T]")
         else:
             raise self.EmptyWorldException
 
@@ -191,7 +191,7 @@ class World:
         Shows the energy flux.
         """
         if self.wires:
-            self._energy_flux.show(title="Energy flux")
+            self._energy_flux.show(title="Energy flux [W/m²]")
         else:
             raise self.EmptyWorldException
 

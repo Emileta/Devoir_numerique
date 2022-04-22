@@ -38,7 +38,7 @@ if __name__ == "__main__":
     world.place(circuit)
 
     now = time.time()
-    world.compute(1000)
+    world.compute(10000)
     print('The computation took', time.time() - now, 'seconds.')
 
     world.show_all()
